@@ -1,0 +1,28 @@
+{
+  "name": "graphql-ws-perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thecodenebula/apollo-prometheus-plugin": "1.0.1",
+    "@graphql-tools/schema": "8.3.7",
+    "@graphql-tools/utils": "8.6.7",
+    "apollo-server-core": "3.6.7",
+    "apollo-server-express": "3.6.7",
+    "express": "4.17.1",
+    "graphql": "15.8.0",
+    "graphql-subscriptions": "2.0.0",
+    "graphql-tag": "2.12.6",
+    "graphql-ws": "5.7.0",
+    "http": "0.0.1-security",
+    "https": "1.0.0",
+    "prom-client": "12.0.0",
+    "ws": "8.5.0"
+  }
+}
